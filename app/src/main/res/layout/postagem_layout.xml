@@ -17,7 +17,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textNome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Gustavo Souza"
@@ -31,14 +31,14 @@
                 android:text="Agora mesmo" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imagePostagem"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/imagem1" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textPostagem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="#tbt viagem legal!" />
@@ -50,18 +50,22 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/buttonGostei"
+                style="?attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:drawableLeft="@drawable/ic_favorite_cinza_24dp"
+                android:text="GOSTEI" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/buttonComentar"
+                style="?attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:drawableLeft="@drawable/ic_comment_cinza_24dp"
+                android:text="COMENTAR" />
         </LinearLayout>
     </LinearLayout>
 
